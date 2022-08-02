@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: pink;
+    padding: 10px;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 30%;
+    position: absolute;
+    left: 33%;
+    padding: 10px;
+    border-radius: 10px;
+}
+    
+    .intro{
+    text-align: center;
+    font-size: 70%;
+    padding: 20px;
+}
+.form{
+    padding-left: 10px;
+}
+label{
+    font: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.input_width{
+    width: 90%;
+    height: 25px;
+}
+.input_padding{
+    padding: 5px;
+}
+.input_style{
+    font-size: smaller;
+    font-weight: 40px;
+    padding: 5px;;
+}
+.textarea_width{
+    width: 90%;
+}
+.btn{
+    width: 30%;
+    background-color:pink;
+    border-color:pink ;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 90px;
+}

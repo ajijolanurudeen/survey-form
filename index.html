@@ -5,30 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>survey form</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div>
-        <div>
-            <h1>survey form</h1>
+    <div class="container">
+        <div class="intro">
+            <h1>Survey Form</h1>
             <p><i>Thank you for taking your time to give us feedback</i></p>
         </div>
-        <div>
+        <div class="form">
             <form action="submit">
-                <div>
+                <div class="input_padding">
                      <label for="name">Name</label> <br>
-                <input type="text" placeholder="enter your name">
+                <input type="text" placeholder="enter your name" class="input_width ">
             </div>
-               <div>
+               <div class=" input_padding">
                 <label for="email">Email</label> <br>
-                <input type="email" placeholder="enter your email">
+                <input type="email" placeholder="enter your email" class="input_width ">
                </div>
-               <div>
+               <div class=" input_padding">
                     <label for="age">Age</label><br>
-                    <input type="number" placeholder="Enter your age">
+                    <input type="number" placeholder="Enter your age" class="input_width">
                </div>
-               <div>
+               <div class="input_padding" >
                 <label for="role">Choose a role that best describes you</label>
-                <select name="role" id="">
+                <select name="role" id=""class="input_width ">
                     <option value="select your role">select your role</option>
                     <option value="beginner">beginner</option>
                     <option value="intermediate">intermediate</option>
@@ -37,27 +38,33 @@
                 </select>
                </div>
                <br>
-                 <div>
+                 <div class="input_padding">
                 <label for="recomendation">Would You Recommend Our Product to a friend</label><br>
-                <input type="radio">Never <br>
-                <input type="radio">Maybe <br>
+                <div class="input_style">
+                  <input type="radio">Never <br>
+                 <input type="radio">Maybe <br>
                 <input type="radio">likely <br>
-                <input type="radio">definetely <br>
+                <input type="radio">definitely <br>
+                </div>
+              
             </div>
-            <div>
+            <div class="input_padding">
                 <label for="likes">Select things that you like about our product</label>
                <br> 
-               <input type="checkbox">UI <br>
+               <div class="input_style">
+                  <input type="checkbox">UI <br>
                <input type="checkbox">Features <br>
                 <input type="checkbox">Service <br>
                 <input type="checkbox">Simpleness <br>
+               </div>
+             
             </div>
-            <div>
+            <div class="input_padding">
                 <label for="Remarks">Remarks</label> <br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="tell us how we can improve"></textarea> 
+                <textarea name="" id="" cols="30" rows="10" placeholder="tell us how we can improve" class="textarea_width" ></textarea> 
             </div>
             <br>
-            <input type="button" value="submit" >
+            <input type="button" value="submit" class="btn">
             </form>
           
         </div>
