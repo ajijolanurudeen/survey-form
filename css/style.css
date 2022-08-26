@@ -6,38 +6,39 @@
 }
 body{
     background-color: pink;
-    padding: 10px;
+    font-family: 'roboto';
 }
 .container{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    width: 30%;
-    position: absolute;
-    left: 33%;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
     padding: 10px;
     border-radius: 10px;
 }
     
-    .intro{
+ .intro{
     text-align: center;
-    font-size: 70%;
+    /*font-size: 70%;*/
     padding: 20px;
 }
 .form{
-    padding-left: 10px;
+   padding: 20px;
 }
 label{
-    font: bold;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    font-weight: bolder;
+    font-size: 1rem;
+    font-weight: 700;
+}
+input{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .input_width{
     width: 90%;
-    height: 25px;
+    height: 35px;
 }
 .input_padding{
-    padding: 5px;
+    padding: 10px;
 }
 .input_style{
     font-size: smaller;
@@ -48,10 +49,27 @@ label{
     width: 90%;
 }
 .btn{
-    width: 30%;
+    width: 50%;
+    height: 40px;
     background-color:pink;
     border-color:pink ;
-    border-radius: 5px;
-    text-align: center;
-    margin-left: 90px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 1px 2px 5px 1px rgba(69,62,62,0.75);
+}
+@media screen and (max-width:480px) {
+    .container{
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
 }
